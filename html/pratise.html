@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="breakdowm.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="home_page.html"><img src="logo1.jpg" style="width: 50px;">Garage Nepal</img></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="pratise.html" target="#s">Breakdown <span class="sr-only" >(current)</span></a>
+        </li>
+        <li class="nav-item">
+     <a class="nav-link" data-toggle="modal" data-target="#myModal">
+    LOGIN 
+  </a>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Login Form</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email"  required pattern="/^[a-zA-Z0-9.!#$%&amp;'*+/=?^_`{|}~-]+@[gmail.com]$/" class="form-control" placeholder="Enter email" id="email">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" required class="form-control" placeholder="Enter password" id="pwd">
+            </div>
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox"> Remember me
+              </label>
+            </div>
+           
+          </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">LOGIN</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+             
+              </a>
+        </li>
+      
+      </ul>
+      <span class="navbar-text">
+        <ul class="navbar-nav mr-auto">
+         </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html" >
+                Registration form</a>
+                </li>
+                </ul>
+              
+              
+             
+  </nav>
+      <div  class="bg-breakdown"></div>
+      <div class="bg-breakdown1">
+        <h2>Breakdown</h2>
+        <h3>Select your automobile type</h3>
+        <div class="form-check-inline">
+          <label class="form-check-label" for="radio1">
+            <input type="radio" required class="form-check-input" id="radio1" name="optradio" value="option1" checked>Car
+           </label>
+         </div>
+         <div class="form-check-inline">
+           <label class="form-check-label" for="radio2">
+             <input type="radio" required class="form-check-input" id="radio2" name="optradio" value="option2">Bike
+           </label>
+         </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputname4">Customer name</label>
+            <input type="text" required class="form-control" id="inputname" placeholder="Customer Name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputnumber">Contact Number</label>
+            <input type="text" required class="form-control" id="inputNumber" placeholder="Contact Number">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputEmail">Email</label>
+            <input type="email" pattern="/^[a-zA-Z0-9.!#$%&amp;'*+/=?^_`{|}~-]+@[gmail.com]$/" required class="form-control" id="inputEmail" placeholder="Email">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputLocation">Location</label>
+            <input type="text" required class="form-control" id="inputLocation" placeholder="location">
+          </div>
+      </div>
+      </div>
+    </div>
+
+  </div>
+    
+  
+</body>
+</html>

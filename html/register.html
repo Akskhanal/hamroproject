@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GarageNepal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="design.css">
+
+  
+  
+</head>
+<body>
+    
+    <div class="container">
+    <div class="jumbotron">
+    <h1 class="display-4">Registration Form</h1>
+    <hr class="my-4">
+    <form name="myForm" action="/action_page.php">
+        <div class="form-group">
+            <label for="exampleInputf_name">frist Name </label>
+            <input type="text" class="form-control" id="exampleInputf_name"  placeholder="Enter your frist name" required>
+          </div>
+        <div class="form-group">
+          <label for="exampleInputl_name">Last Name</label>
+          <input type="text" class="form-control" id="exampleInputl_name"  placeholder="Enter Last Name" required>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputnumber">Phone Number</label>
+            <input name="pnumber" type="text" class="form-control" id="exampleInputNumber" pattern="[9][8][0-9]{8}"  placeholder="Enter your phone number" required>
+          </div>
+     
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"pattern="/^[a-zA-Z0-9.!#$%&amp;'*+/=?^_`{|}~-]+@[gmail.com]$/" placeholder="Enter email" required>
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required >
+            <small id="emailHelp" class="form-text text-muted"><small id="emailpassword" class="form-text text-muted">We'll never share your email with anyone else.</small>.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword2">Retype Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Retype Password" required>
+          </div>
+          <button class="btn btn-primary btn-lg btn-block" type="submit" value="Submit">Register</button>
+        
+      </form>
+    </div>
+</body>
+</html>
