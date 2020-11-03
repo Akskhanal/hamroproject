@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("background.jpg");
+  
+    /* Full height */
+    height: 90%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text-block {
+   
+    background-color	#F0F0F0;
+    color: white;
+    padding: 100px;
+    width: 500px;
+    height: 500px;
+    text-align: justify;
+    font-family: Impact, Charcoal, sans-serif;
+  }
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: blueviolet;
+  }
+  
+  
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(21, 22, 22);
+    background-color:white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px white;
+  }
+  
+  .button:hover {background-color:#ff3300}
+  
+  .button:active {
+    background-color: #cce6ec;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
